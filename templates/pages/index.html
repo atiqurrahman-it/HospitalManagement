@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static  %}
+  {% block maincontent %}
+      <div class="container-fluid mt-4">
+        <div class="row offset-2">
+        <div class="col-md-3 ">
+            <div class="card shadow-lg">
+                <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+               </div>
+               <div class="card-header"> Featured </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+             <div class="card shadow-lg">
+                <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+               </div>
+               <div class="card-header"> Featured </div>
+            </div>
+
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-lg">
+                <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+               </div>
+               <div class="card-header"> Featured </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+      <div class="container mt-5">
+          <div class="row">
+              <div class="col-md-4">
+                      <div class="card">
+                      <img class="card-img-top"  src="{% static 'img/doctor.png' %}" style="width:348px; height:298px;" alt="Card image cap">
+                      <div class="card-body">
+                        <h2 class="card-title text-center">Doctor</h2>
+                      </div>
+                       <div>
+                       <a href="#" class="btn btn-primary btn-lg btn-block">View</a>
+                       </div>
+                    </div>
+              </div>
+               <div class="col-md-4">
+                      <div class="card">
+                      <img class="card-img-top" src="https://mpng.subpng.com/20180131/zfw/kisspng-blood-transfusion-wound-bleeding-cartoon-wounded-transfusion-avatar-5a71f65f9936b6.0507179415174180796276.jpg" style="width:348px; height:298px;" alt="Card image cap">
+                      <div class="card-body">
+                         <h2 class="card-title text-center">Admin</h2>
+                      </div>
+                       <div>
+                       <a href="#" class="btn btn-primary btn-lg btn-block">View</a>
+                       </div>
+                    </div>
+              </div>
+               <div class="col-md-4">
+                      <div class="card"">
+                      <img class="card-img-top" src="https://cdn2.iconfinder.com/data/icons/covid-19-flat/64/virus-18-512.png" style="width:348px; height:298px;" alt="Card image cap">
+                      <div class="card-body">
+                        <h2 class="card-title">Patient</h2>
+                      </div>
+                       <div>
+                       <a href="#" class="btn btn-primary btn-lg btn-block">View</a>
+                       </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+   {% endblock maincontent %}
