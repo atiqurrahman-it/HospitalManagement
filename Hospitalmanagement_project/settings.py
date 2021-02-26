@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # add my create app
     'pages_app',
+    'admin_app'
 
 ]
 
